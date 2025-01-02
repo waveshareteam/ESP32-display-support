@@ -1,0 +1,1 @@
+如果你的板子不带触摸，需要在main文件找到#define EXAMPLE_USE_TOUCH  1 把 1修改成0

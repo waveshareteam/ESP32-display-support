@@ -1,0 +1,13 @@
+{
+    "idf.adapterTargetName": "esp32s3",
+    "idf.flashType": "UART",
+    "idf.portWin": "COM29",
+    "files.associations": {
+        "user_bsp.h": "c",
+        "esp_lcd_touch_ft5x06.h": "c",
+        "esp_wifi_bsp.h": "c",
+        "i2c_bsp.h": "c",
+        "sd_card_bsp.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}

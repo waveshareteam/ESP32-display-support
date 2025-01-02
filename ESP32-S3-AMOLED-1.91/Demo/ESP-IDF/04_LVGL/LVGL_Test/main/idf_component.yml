@@ -1,0 +1,12 @@
+version: "1.0.0"
+
+dependencies:
+  idf: ">5.0.4,!=5.1.1"
+  
+  esp_lcd_sh8601:
+    version: "*"
+    public: true
+
+  lvgl/lvgl:
+    version: "^8"
+    public: true

@@ -1,0 +1,1 @@
+LVGL_Test例程需要注意一个问题，默认是适配触控的板子，如果你的板子是不带触摸的板子，那么你需要在LVGL_Test.ino文件里面找到#define EXAMPLE_USE_TOUCH   1  然后把 1改成 0

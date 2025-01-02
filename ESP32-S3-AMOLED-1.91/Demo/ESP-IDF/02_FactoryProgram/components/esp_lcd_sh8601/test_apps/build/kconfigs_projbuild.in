@@ -1,0 +1,5 @@
+source "/home/lzw/esp/work/esp-idf-gitlab/components/bootloader/Kconfig.projbuild"
+source "/home/lzw/esp/work/esp-idf-gitlab/components/esp_app_format/Kconfig.projbuild"
+source "/home/lzw/esp/work/esp-idf-gitlab/components/esp_rom/Kconfig.projbuild"
+source "/home/lzw/esp/work/esp-idf-gitlab/components/esptool_py/Kconfig.projbuild"
+source "/home/lzw/esp/work/esp-idf-gitlab/components/partition_table/Kconfig.projbuild"

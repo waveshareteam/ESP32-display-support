@@ -1,0 +1,10 @@
+{
+    "idf.adapterTargetName": "esp32s3",
+    "idf.flashType": "UART",
+    "idf.portWin": "COM18",
+    "files.associations": {
+        "user_bsp.h": "c",
+        "esp_lcd_touch_ft5x06.h": "c",
+        "esp_wifi_bsp.h": "c"
+    }
+}

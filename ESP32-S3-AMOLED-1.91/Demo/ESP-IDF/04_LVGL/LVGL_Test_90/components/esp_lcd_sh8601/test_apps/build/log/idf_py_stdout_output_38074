@@ -1,0 +1,104 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcbc
+load:0x403cc700,len:0x2d94
+entry 0x403c9914
+[0;32mI (27) boot: ESP-IDF v5.2-beta1-151-gbf816394d4 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Mar 20 2024 00:41:41[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (32) boot: chip revision: v0.2[0m
+[0;32mI (35) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (40) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (45) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (50) boot: Enabling RNG early entropy source...[0m
+[0;32mI (55) boot: Partition Table:[0m
+[0;32mI (59) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (66) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (73) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (81) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (88) boot: End of partition table[0m
+[0;32mI (93) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0f62ch ( 63020) map[0m
+[0;32mI (112) esp_image: segment 1: paddr=0001f654 vaddr=3fc94200 size=009c4h (  2500) load[0m
+[0;32mI (113) esp_image: segment 2: paddr=00020020 vaddr=42000020 size=1e6e4h (124644) map[0m
+[0;32mI (140) esp_image: segment 3: paddr=0003e70c vaddr=3fc94bc4 size=02004h (  8196) load[0m
+[0;32mI (142) esp_image: segment 4: paddr=00040718 vaddr=40374000 size=10174h ( 65908) load[0m
+[0;32mI (167) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (179) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     test_esp_lcd_gc9b71[0m
+[0;32mI (197) cpu_start: App version:      c361f94b[0m
+[0;32mI (202) cpu_start: Compile time:     Mar 20 2024 00:41:35[0m
+[0;32mI (208) cpu_start: ELF file SHA256:  1ca9373c5...[0m
+[0;32mI (214) cpu_start: ESP-IDF:          v5.2-beta1-151-gbf816394d4[0m
+[0;32mI (220) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (225) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (230) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (235) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (242) heap_init: At 3FC97578 len 00052198 (328 KiB): RAM[0m
+[0;32mI (248) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (254) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (260) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (267) spi_flash: detected chip: gd[0m
+[0;32mI (271) spi_flash: flash io: dio[0m
+[0;33mW (275) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (288) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (295) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (302) main_task: Started on CPU0[0m
+[0;32mI (306) main_task: Calling app_main()[0m
+ __         ___   __    ___  _
+/ _\  /\  /( _ ) / /_  / _ \/ |
+\ \  / /_/ / _ \| '_ \| | | | |
+_\ \/ __  / (_) | (_) | |_| | |
+\__/\/ /_/ \___/ \___/ \___/|_|
+
+
+Press ENTER to see the list of tests.
+
+
+
+Here's the test menu, pick your combo:
+(1)	"test sh8601 to draw color bar with SPI interface" [sh8601][spi]
+(2)	"test sh8601 to draw color bar with QSPI interface" [sh8601][qspi]
+
+Enter test for running.
+2
+Running test sh8601 to draw color bar with QSPI interface...
+[0;32mI (3795) sh8601_test: Initialize SPI bus[0m
+[0;32mI (3795) sh8601_test: Install panel IO[0m
+[0;32mI (3796) sh8601_test: Install LCD driver of sh8601[0m
+[0;32mI (3798) gpio: GPIO[21]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (3808) sh8601: LCD panel create success, version: 1.0.0[0m
+[0;32mI (7252) gpio: GPIO[21]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (7252) gpio: GPIO[9]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (7260) gpio: GPIO[11]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (7269) gpio: GPIO[12]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (7278) gpio: GPIO[10]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (7288) gpio: GPIO[13]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (7297) gpio: GPIO[14]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+MALLOC_CAP_8BIT usage: Free memory delta: -16 Leak threshold: -300 
+MALLOC_CAP_8BIT potential leak: Before 377268 bytes free, After 377252 bytes free (delta 16)
+MALLOC_CAP_32BIT usage: Free memory delta: -16 Leak threshold: -300 
+MALLOC_CAP_32BIT potential leak: Before 377268 bytes free, After 377252 bytes free (delta 16)
+./main/test_esp_lcd_sh8601.c:119:test sh8601 to draw color bar with QSPI interface:PASS
+Test ran in 3564ms
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Enter next test, or 'enter' to see menu
+
+
+
+Here's the test menu, pick your combo:
+(1)	"test sh8601 to draw color bar with SPI interface" [sh8601][spi]
+(2)	"test sh8601 to draw color bar with QSPI interface" [sh8601][qspi]
+
+Enter test for running.

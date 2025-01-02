@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601/test_apps/build/CMakeFiles/bootloader
+/home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601/test_apps/build/CMakeFiles/bootloader.rule
+/home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601/test_apps/build/CMakeFiles/bootloader-complete.rule
+/home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601/test_apps/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601/test_apps/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601/test_apps/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601/test_apps/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601/test_apps/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601/test_apps/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601/test_apps/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

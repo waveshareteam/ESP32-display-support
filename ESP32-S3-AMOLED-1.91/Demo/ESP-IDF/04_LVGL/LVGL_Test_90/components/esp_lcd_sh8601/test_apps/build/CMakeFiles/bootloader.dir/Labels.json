@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601/test_apps/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "/home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601/test_apps/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "/home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601/test_apps/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "/home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601/test_apps/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "/home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601/test_apps/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "/home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601/test_apps/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "/home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601/test_apps/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "/home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601/test_apps/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "/home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601/test_apps/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "/home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601/test_apps/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}

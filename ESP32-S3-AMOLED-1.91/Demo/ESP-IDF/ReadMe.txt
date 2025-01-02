@@ -1,0 +1,1 @@
+FactoryProgram工程默认适配触摸版本，如果你的板子不带触摸，需要在main文件下找到#define EXAMPLE_USE_TOUCH   1改成0

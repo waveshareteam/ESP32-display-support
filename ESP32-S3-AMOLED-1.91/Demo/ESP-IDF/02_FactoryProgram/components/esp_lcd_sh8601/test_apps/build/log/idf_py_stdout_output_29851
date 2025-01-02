@@ -1,0 +1,54 @@
+-- Found Git: /usr/bin/git (found version "2.34.1") 
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /home/lzw/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/lzw/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/lzw/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32s3
+Dependencies lock doesn't exist, solving dependencies.
+Using component placed at /home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601 for dependency esp_lcd_sh8601(*), specified in /home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601/test_apps/main/idf_component.yml
+.....Updating lock file at /home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601/test_apps/dependencies.lock
+Processing 3 dependencies:
+[1/3] esp_lcd_sh8601 (1.0.0)
+[2/3] espressif/cmake_utilities (0.5.3)
+[3/3] idf (5.2.0)
+-- Project sdkconfig file /home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601/test_apps/sdkconfig
+Loading defaults file /home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601/test_apps/sdkconfig.defaults...
+/home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601/test_apps/sdkconfig.defaults:9 CONFIG_ESP32S3_DEFAULT_CPU_FREQ_240 was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240
+/home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601/test_apps/sdkconfig.defaults:10 CONFIG_ESP_TASK_WDT was replaced with CONFIG_ESP_TASK_WDT_INIT
+-- Compiler supported targets: xtensa-esp-elf
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: /home/lzw/.espressif/python_env/idf5.2_py3.11_env/bin/python (found version "3.11.5") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "test_esp_lcd_gc9b71" version: c361f94b
+-- Adding linker script /home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601/test_apps/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/lzw/esp/work/esp-idf-gitlab/components/esp_system/ld/esp32s3/sections.ld.in
+-- Adding linker script /home/lzw/esp/work/esp-idf-gitlab/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script /home/lzw/esp/work/esp-idf-gitlab/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script /home/lzw/esp/work/esp-idf-gitlab/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script /home/lzw/esp/work/esp-idf-gitlab/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+-- Adding linker script /home/lzw/esp/work/esp-idf-gitlab/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
+-- Adding linker script /home/lzw/esp/work/esp-idf-gitlab/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+-- ESP_LCD_SH8601: 1.0.0
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_lcd_sh8601 esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump espressif__cmake_utilities esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport test_utils touch_element ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/lzw/esp/work/esp-idf-gitlab/components/app_trace /home/lzw/esp/work/esp-idf-gitlab/components/app_update /home/lzw/esp/work/esp-idf-gitlab/components/bootloader /home/lzw/esp/work/esp-idf-gitlab/components/bootloader_support /home/lzw/esp/work/esp-idf-gitlab/components/bt /home/lzw/esp/work/esp-idf-gitlab/components/cmock /home/lzw/esp/work/esp-idf-gitlab/components/console /home/lzw/esp/work/esp-idf-gitlab/components/cxx /home/lzw/esp/work/esp-idf-gitlab/components/driver /home/lzw/esp/work/esp-idf-gitlab/components/efuse /home/lzw/esp/work/esp-idf-gitlab/components/esp-tls /home/lzw/esp/work/esp-idf-gitlab/components/esp_adc /home/lzw/esp/work/esp-idf-gitlab/components/esp_app_format /home/lzw/esp/work/esp-idf-gitlab/components/esp_bootloader_format /home/lzw/esp/work/esp-idf-gitlab/components/esp_coex /home/lzw/esp/work/esp-idf-gitlab/components/esp_common /home/lzw/esp/work/esp-idf-gitlab/components/esp_eth /home/lzw/esp/work/esp-idf-gitlab/components/esp_event /home/lzw/esp/work/esp-idf-gitlab/components/esp_gdbstub /home/lzw/esp/work/esp-idf-gitlab/components/esp_hid /home/lzw/esp/work/esp-idf-gitlab/components/esp_http_client /home/lzw/esp/work/esp-idf-gitlab/components/esp_http_server /home/lzw/esp/work/esp-idf-gitlab/components/esp_https_ota /home/lzw/esp/work/esp-idf-gitlab/components/esp_https_server /home/lzw/esp/work/esp-idf-gitlab/components/esp_hw_support /home/lzw/esp/work/esp-idf-gitlab/components/esp_lcd /home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601 /home/lzw/esp/work/esp-idf-gitlab/components/esp_local_ctrl /home/lzw/esp/work/esp-idf-gitlab/components/esp_mm /home/lzw/esp/work/esp-idf-gitlab/components/esp_netif /home/lzw/esp/work/esp-idf-gitlab/components/esp_netif_stack /home/lzw/esp/work/esp-idf-gitlab/components/esp_partition /home/lzw/esp/work/esp-idf-gitlab/components/esp_phy /home/lzw/esp/work/esp-idf-gitlab/components/esp_pm /home/lzw/esp/work/esp-idf-gitlab/components/esp_psram /home/lzw/esp/work/esp-idf-gitlab/components/esp_ringbuf /home/lzw/esp/work/esp-idf-gitlab/components/esp_rom /home/lzw/esp/work/esp-idf-gitlab/components/esp_system /home/lzw/esp/work/esp-idf-gitlab/components/esp_timer /home/lzw/esp/work/esp-idf-gitlab/components/esp_wifi /home/lzw/esp/work/esp-idf-gitlab/components/espcoredump /home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601/test_apps/managed_components/espressif__cmake_utilities /home/lzw/esp/work/esp-idf-gitlab/components/esptool_py /home/lzw/esp/work/esp-idf-gitlab/components/fatfs /home/lzw/esp/work/esp-idf-gitlab/components/freertos /home/lzw/esp/work/esp-idf-gitlab/components/hal /home/lzw/esp/work/esp-idf-gitlab/components/heap /home/lzw/esp/work/esp-idf-gitlab/components/http_parser /home/lzw/esp/work/esp-idf-gitlab/components/idf_test /home/lzw/esp/work/esp-idf-gitlab/components/ieee802154 /home/lzw/esp/work/esp-idf-gitlab/components/json /home/lzw/esp/work/esp-idf-gitlab/components/log /home/lzw/esp/work/esp-idf-gitlab/components/lwip /home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601/test_apps/main /home/lzw/esp/work/esp-idf-gitlab/components/mbedtls /home/lzw/esp/work/esp-idf-gitlab/components/mqtt /home/lzw/esp/work/esp-idf-gitlab/components/newlib /home/lzw/esp/work/esp-idf-gitlab/components/nvs_flash /home/lzw/esp/work/esp-idf-gitlab/components/nvs_sec_provider /home/lzw/esp/work/esp-idf-gitlab/components/openthread /home/lzw/esp/work/esp-idf-gitlab/components/partition_table /home/lzw/esp/work/esp-idf-gitlab/components/perfmon /home/lzw/esp/work/esp-idf-gitlab/components/protobuf-c /home/lzw/esp/work/esp-idf-gitlab/components/protocomm /home/lzw/esp/work/esp-idf-gitlab/components/pthread /home/lzw/esp/work/esp-idf-gitlab/components/sdmmc /home/lzw/esp/work/esp-idf-gitlab/components/soc /home/lzw/esp/work/esp-idf-gitlab/components/spi_flash /home/lzw/esp/work/esp-idf-gitlab/components/spiffs /home/lzw/esp/work/esp-idf-gitlab/components/tcp_transport /home/lzw/esp/work/esp-idf-gitlab/tools/unit-test-app/components/test_utils /home/lzw/esp/work/esp-idf-gitlab/components/touch_element /home/lzw/esp/work/esp-idf-gitlab/components/ulp /home/lzw/esp/work/esp-idf-gitlab/components/unity /home/lzw/esp/work/esp-idf-gitlab/components/usb /home/lzw/esp/work/esp-idf-gitlab/components/vfs /home/lzw/esp/work/esp-idf-gitlab/components/wear_levelling /home/lzw/esp/work/esp-idf-gitlab/components/wifi_provisioning /home/lzw/esp/work/esp-idf-gitlab/components/wpa_supplicant /home/lzw/esp/work/esp-idf-gitlab/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601/test_apps/build

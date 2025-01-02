@@ -1,0 +1,21 @@
+dependencies:
+  esp_lcd_sh8601:
+    component_hash: null
+    source:
+      path: /home/lzw/Desktop/Work/esp-iot-solution/examples/display/lcd/lcd_with_te_sh8601/components/esp_lcd_sh8601
+      type: local
+    version: 1.0.0
+  espressif/cmake_utilities:
+    component_hash: 351350613ceafba240b761b4ea991e0f231ac7a9f59a9ee901f751bddc0bb18f
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 0.5.3
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.2.0
+manifest_hash: 416e53c161c6b7a37ba4d77336e68ba20f976c160bfd6530874ec0109da5dc7c
+target: esp32s3
+version: 1.0.0

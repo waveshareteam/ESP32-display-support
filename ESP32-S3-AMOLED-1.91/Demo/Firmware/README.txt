@@ -1,0 +1,1 @@
+sorry, factory firmware source code companies are not open to the public
