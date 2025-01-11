@@ -1,0 +1,5 @@
+dependencies:
+  espressif/esp_hosted: "*"
+  espressif/esp_wifi_remote: "*"
+  ethernet_init:
+    path: ${IDF_PATH}/examples/ethernet/basic/components/ethernet_init
