@@ -1,0 +1,8 @@
+## IDF Component Manager Manifest File
+dependencies:
+  ## Required IDF version
+  idf: ">=5.1.0"
+  espressif/esp_lvgl_port:
+    version: "^2"
+  espressif/esp-brookesia: "*"
+  lvgl/lvgl: "8.4.0"
