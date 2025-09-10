@@ -1,3 +1,0 @@
-## IDF Component Manager Manifest File
-dependencies:
-  waveshare/esp_lcd_jd9365_10_1: "^0.0.4"
