@@ -1,0 +1,26 @@
+{"page":0,"comment":"---------- Upper stat line ----------"}
+{"id":0,"text_color":"#FFFF44"}
+
+{"id":90,"obj":"flex","x":0,"y":0,"w%":100,"h":24,"bg_color":"#4f4f4f","bg_opa":255,"radius":0,"border_side":1,"border_width":1,"border_color":"#FFFF44","text_color":"#FFFF44"}
+  {"id":91,"obj":"label","parentid":90,"x":20,"y":0,"w":80,"h%":100,"long_mode":3,"text":"Waveshare ESP32-S3-LCD-1.69","flex_grow":1}
+  {"id":92,"obj":"fixed","parentid":90,"w":102,"text_color":"#FFFF44"}
+    {"id":95,"parentid":92,"comment":"-- Clock --","obj":"lv_clock","x":0,"y":3,"w":55,"h":16,"radius":0,"border_side":0}
+    {"id":97,"parentid":92,"comment":"-- Wifi indicator --","obj":"lv_wifi_arcs","x":53,"y":0,"w":29,"h":20,"radius":0,"border_side":0,"bg_color":"#000000","line_color":"#FFFF44"}
+{"comment":"---------- Bottom buttons - prev/home/next ----------"}
+{"id":101,"obj":"btn","x":20,"y":230,"w":40,"h":30,"action":"prev","bg_color":"#1fa3ec","radius":10,"border_side":1,"text":"\uF053","text_font":"montserrat-20"}
+{"id":102,"obj":"btn","x":80,"y":230,"w":80,"h":30,"action":"back","bg_color":"#1fa3ec","radius":10,"border_side":1,"text":"\uF015","text_font":"montserrat-20"}
+{"id":103,"obj":"btn","x":180,"y":230,"w":40,"h":30,"action":"next","bg_color":"#1fa3ec","radius":10,"border_side":1,"text":"\uF054","text_font":"montserrat-20"}
+
+{"page":1,"comment":"---------- Page 1 Accelerometer ----------"}
+
+{"id":0,"bg_color":"#000000","text_color":"#FFFFFF","text_font":"montserrat-20"}
+{"id":1,"obj":"label","x":10,"y":30,"w%":100,"h":24,"text":"Accelerometer X/Y","text_font":"montserrat-20"}
+{"id":10,"obj":"chart","x":10,"y":60,"w":220,"h":130,"bg_color":"#440000","border_color":"#FFFF44","bg_opa":100,"border_color":"#0099EE","border_width":1,"radius":10,"pad_all":2,"y_min":-200,"y_max":200,"point_count":20,"height10":0,"width10":0,"v_div_line_count":0,"h_div_line_count":5,"line_color":"#555555","line_width30":3}
+{"id":11,"obj":"label","x":20,"y":190,"w":130,"text":"z=","align":0,"text_rule":"QMI8658#z_g","text_rule_format":"z=%2.3fg","text_rule_formula":"val"}
+
+{"page":2,"comment":"---------- Page 2 Stats ----------"}
+{"id":0,"bg_color":"#000000","text_color":"#FFFFFF","text_font":"montserrat-20"}
+{"id":1,"obj":"label","x":10,"y":30,"w%":100,"h":24,"text":"wire1 status","text_font":"montserrat-20"}
+{"id":2,"obj":"label","x":10,"y":54,"w%":100,"h":24,"text":"wire2 status","text_font":"montserrat-20"}
+{"comment":"BAT_ADC is 1/3 of B+, which is the raw battery voltage. The ETA6098 datasheet is unclear about the no-battery state, but it appears to be 4.2V. Tasmota does not appear to accept adcparam commands but says 3.3V is the default max input range."}
+{"id":3,"obj":"label","x":10,"y":78,"w%":100,"h":24,"text":"BAT_ADC","text_rule":"ANALOG#A1","text_rule_format":"BAT_ADC=%2.3fV","text_rule_formula":"3*(val*3.3/4095)","text_font":"montserrat-20"}

@@ -1,0 +1,17 @@
+dependencies:
+  idf:
+    version: '>=5.3.2'
+
+  waveshare/esp32_s3_touch_amoled_2_06:
+    version: "*"
+
+  chmorgan/esp-audio-player:
+    version: "1.0.*"
+    public: true
+
+  chmorgan/esp-file-iterator:
+    version: "1.0.0"
+    public: true
+
+description: Board Support Package for ESP32-S3-Touch-AMOLED-2.06
+version: 0.0.2
